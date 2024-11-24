@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #004d40;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: #004d40;
+  color: white;
+  padding: 20px 0;
+}
+
+header nav a {
+  margin: 0 15px;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.skills ul, .projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li, .projects li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #004d40;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header nav a {
+  cursor: pointer;
+}

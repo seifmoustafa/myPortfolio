@@ -1,0 +1,22 @@
+.header {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    margin-bottom: 10px;
+  }
+  
+  .header nav a {
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .header nav a:hover {
+    color: #c8e6c9;
+  }
+  
