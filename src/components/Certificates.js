@@ -5,28 +5,35 @@ import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
 import { fadeIn } from "../animations";
 import "../components/styles/Certificates.css";
+import CleanArch from"../assets/CleanArch.jpg";
+import ResponsiveUI from"../assets/ResponsiveUI.jpg";
+
+import Flutter from"../assets/Flutter.jpg";
+import MVVM from"../assets/MVVM.jpg";
+import git from"../assets/git.jpg";
+
 
 const Certificates = () => {
   const certificates = [
     {
       title: "Mastering Flutter: Responsive UI Design",
-      img: "/assets/ResponsiveUI.jpg",
+      img: ResponsiveUI,
     },
     {
       title: "Deep Dive into Clean Architecture in Flutter",
-      img: "/assets/CleanArch.jpg",
+      img: CleanArch,
     },
     {
       title: "Flutter & Dart Complete Development Course",
-      img: "/assets/Flutter.jpg",
+      img: Flutter,
     },
     {
       title: "Flutter Advanced Bloc and MVVM Pattern",
-      img: "/assets/MVVM.jpg",
+      img: MVVM,
     },
     {
       title: "Master Git & GitHub",
-      img: "/assets/git.jpg",
+      img:git,
     },
   ];
 
