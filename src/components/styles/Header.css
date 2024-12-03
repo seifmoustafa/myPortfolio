@@ -11,13 +11,16 @@
 
 .header nav {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;  /* Prevent wrapping of links */
   justify-content: center;
   gap: 20px;
+  overflow-x: auto;  /* Enable horizontal scrolling when links overflow */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  padding: 10px 0;  /* Add some space around the links */
 }
 
 .header nav a {
-  margin: 0 10px;
+  margin: 0 5px;
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -27,9 +30,16 @@
   color: #c8e6c9;
 }
 
+/* Mobile Layout Adjustments */
 @media (max-width: 768px) {
   .header nav {
-    flex-direction: column;
-    gap: 10px;
+    flex-wrap: nowrap; /* Keep the links in a single row */
+    justify-content: flex-start; /* Align links to the left */
+    padding: 10px 15px; /* Add padding on mobile */
+  }
+
+  .header nav a {
+    flex-shrink: 0;  /* Prevent links from shrinking */
+    min-width: 120px;  /* Ensure each link has enough space */
   }
 }
