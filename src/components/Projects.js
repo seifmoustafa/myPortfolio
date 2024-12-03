@@ -9,7 +9,8 @@ const Projects = () => {
     { name: "Read It", link: "https://github.com/seifmoustafa/read_it" },
     { name: "Bookly", link: "https://github.com/seifmoustafa/bookly" },
     { name: "Responsive Dashboard", link: "https://github.com/seifmoustafa/responsive_dash_board" },
-    { name: "Chat App", link: "https://github.com/seifmoustafa/chatapp" }
+    { name: "Chat App", link: "https://github.com/seifmoustafa/chatapp" },
+    {name :"GMapF", link:"https://github.com/seifmoustafa/GMapF"}
   ];
 
   return (

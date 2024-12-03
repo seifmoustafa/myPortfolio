@@ -11,7 +11,7 @@ import ResponsiveUI from"../assets/ResponsiveUI.jpg";
 import Flutter from"../assets/Flutter.jpg";
 import MVVM from"../assets/MVVM.jpg";
 import git from"../assets/git.jpg";
-
+import GMaps from "../assets/GMaps.jpg";
 
 const Certificates = () => {
   const certificates = [
@@ -35,6 +35,10 @@ const Certificates = () => {
       title: "Master Git & GitHub",
       img:git,
     },
+    {
+      title:"Flutter App Creation: Google Maps Integration Guide [Arabic]",
+      img:GMaps,
+    }
   ];
 
   const settings = {
